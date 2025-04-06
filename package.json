@@ -1,0 +1,43 @@
+{
+    "name": "rsg-util",
+    "version": "1.1.9",
+    "description": "A lightweight utility to generate random strings",
+    "main": "index.js",
+    "module": "index.mjs",
+    "types": "index.d.ts",
+    "scripts": {
+        "test": "echo \"No tests yet\""
+    },
+    "bin": {
+        "rsg-util": "./cli.js"
+    },
+    "keywords": [
+       "random",
+  "string",
+  "uuid",
+  "generator",
+  "shortid",
+  "id",
+  "token",
+  "hex",
+  "cli",
+  "timestamp",
+  "unique-id",
+  "alphanumeric",
+  "string-generator",
+  "rsg",
+  "nanoid",
+  "utility"
+    ],
+    "exports": {
+        "require": "./index.js",
+        "import": "./index.mjs"
+    },
+    "author": "Viran Fernando",
+    "license": "MIT",
+    "dependencies": {
+        "clipboardy": "^4.0.0",
+        "inquirer": "^12.5.2",
+        "minimist": "^1.2.8"
+    }
+}
